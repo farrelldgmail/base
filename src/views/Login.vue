@@ -50,6 +50,7 @@
 </template>
 
 <script>
+  /* Test */
   export default {
     data: () => ({
       valid: false,
@@ -58,7 +59,6 @@
       nameRules: [
         value => {
           if (value) return true
-
           return 'Name is requred.'
         },
       ],
